@@ -19,6 +19,17 @@ Prototype a "Research Agent" from scratch. We will start with a simple question 
 - Think aloud as you work.
 - We want to see how you approach data, debug API responses, and iterate on your solution.
 
+## Requirements
+
+- **Package manager:** [uv](https://docs.astral.sh/uv/)
+- **Dependencies:** `tavily-python`, `litellm`
+
+### Docs
+
+- Tavily Search API: https://docs.tavily.com/documentation/api-reference/endpoint/search
+- Tavily Python SDK: https://docs.tavily.com/sdk/python/reference
+- LiteLLM – Make a Request: https://docs.litellm.ai/docs/
+
 ## API Keys
 
 - `TAVILY_API_KEY`: ...
