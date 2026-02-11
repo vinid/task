@@ -4,6 +4,8 @@
 
 It is fine if you don't know some tools mentioned below, this is part of the activity, we will go step by step and see how we can use them to solve the problem.
 
+For the first 10/15 minutes, feel free to just ask questions (you can also ask questions later, but the first 10/15 minutes is a good time to get started).
+
 ## The Task
 
 Prototype a simple web search agent from scratch. 
