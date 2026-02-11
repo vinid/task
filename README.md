@@ -2,22 +2,34 @@
 
 ## The Task
 
-Build a Python script that answers user questions by performing live web searches and synthesizing the results using an LLM.
+Prototype a "Research Agent" from scratch. We will start with a simple question and iterate on the complexity together.
 
 ## The Stack
 
-- **Search:** Tavily API
-- **LLM:** Together AI `
+- **Search:** Tavily API. Tavily will return documents that are relevant to the query.
+- **LLM:** Together AI. LLM that will synthesize the context and generate the final answer.
+
 - **Coding Agent:** Your choice (Cursor, Claude, etc.)
 
-## The Goal
 
-Prototype a "Research Agent" from scratch. We will start with a simple question and iterate on the complexity together.
+## Expected Pipeline
+
+```text
++--------+    +--------+    +--------------+    +--------+
+| Query  | -> | Search | -> | Docs/Context | -> | Answer |
++--------+    +--------+    +--------------+    +--------+
+```
+
+## Main Functions
+
+- Tavily search: `TavilyClient.search(query="...")`
+- LiteLLM completion: `completion(model="...", messages=[...])`
+- How it works: run Tavily search to fetch context, then pass that context to LiteLLM completion to generate the final answer.
 
 ## Instructions
 
 - Think aloud as you work.
-- We want to see how you approach data, debug API responses, and iterate on your solution.
+- We want to see how you approach the task, debug API responses, and iterate on your solution.
 
 ## Requirements
 
