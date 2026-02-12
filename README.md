@@ -2,9 +2,11 @@
 
 **Note**: the objective of this challenge is not to come up with the best possible solution. Not even to finish the challenge itself. 
 
-It is fine if you don't know some tools mentioned below, this is part of the activity, we will go step by step and see how we can use them to solve the problem.
+* It is fine if you don't know some tools mentioned below
+    * this is part of the task, we will go step by step and see how we can use them to solve the problem.
 
-For the first 10/15 minutes, feel free to just ask questions (you can also ask questions later, but the first 10/15 minutes is a good time to get started).
+* For the first 10/15 minutes, feel free to just ask questions 
+    * (you can also ask questions later, but the first 10/15 minutes is a good time to get started).
 
 ## The Task
 
@@ -46,8 +48,7 @@ Let's assume we have a user who is asking a question and we need to find the ans
 
 ### Docs
 
-- Tavily Search API: https://docs.tavily.com/documentation/api-reference/endpoint/search
-- Tavily Python SDK: https://docs.tavily.com/sdk/python/reference
+- Tavily SDK: https://docs.tavily.com/documentation/api-reference/endpoint/search
 - LiteLLM – Make a Request: https://docs.litellm.ai/docs/
 
 ## API Keys
