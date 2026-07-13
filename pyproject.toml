@@ -5,6 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "litellm>=1.81.9",
-    "tavily-python>=0.7.21",
+    "litellm>=1.91.2",
+    "tavily-python>=0.7.26",
 ]
